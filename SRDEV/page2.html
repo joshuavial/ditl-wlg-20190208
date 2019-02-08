@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <h1 class="header"> Contact</h1>
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+    <script>
+    function myMap() {
+    var mapProp= {
+      center:new google.maps.LatLng(-41.296830,174.773930),
+      zoom:5,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+    <a href="index.html">Home</a>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <button onClick="alert('hello world')">Click me</button>
+    <h2>Our Team</h2>
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      </style>
+      </head>
+      <body>
+    
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+      <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+      </tr>
+      <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+      </tr>
+      <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+      </tr>
+      <tr>
+        <td>Magazzini Alimentari Riuniti</td>
+        <td>Giovanni Rovelli</td>
+        <td>Italy</td>
+      </tr>
+    </table>
+
+  </body>
+</html>

@@ -1,0 +1,58 @@
+ol {
+    border: 1px solid red;
+  }
+  h1 {
+    color: orange;
+  }
+  .header {
+    font-size: 35px;
+    border: 1px dashed purple;
+  }
+  
+  #header2 {
+    background-color: green;
+  }
+  .red {
+    background-color: red;
+  }
+  .box {
+    border: 1px solid #555145;
+    background-color: rgb(160, 163, 177) ;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .FB {
+    display: block;
+    margin: 40px;
+  }
+  blink {
+    -webkit-animation: 2s linear infinite condemned_blink_effect; // for android
+    animation: 2s linear infinite condemned_blink_effect;
+}
+@-webkit-keyframes condemned_blink_effect { // for android
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+@keyframes condemned_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+blink {
+  display: block;
+    margin: 40px;
+}
