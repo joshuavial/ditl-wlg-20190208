@@ -1,0 +1,54 @@
+h1 
+{
+    color: red;
+    text-align: center;
+}
+h3
+{
+    border-style: groove;
+    border-width: 10px;
+    padding: 25px;
+    margin: 20px;
+    
+}
+.header 
+{
+    font-size: 30px;
+    border-style:  dashed solid dotted solid ;
+    border-color: red;
+    padding: 5px 25px;
+    margin: 0px;
+
+}
+pre
+{
+    background-color: #e6ebe2;
+    padding: 20px;
+    margin: 30px;
+}
+
+.one, .two {
+    font-size: 20px;
+    padding: 30px;
+}
+.one
+{
+    background-color: red;
+}
+.two
+{
+    background-color: green;
+}
+
+
+.red .one {
+    background-color: green;
+}
+.red .two {
+    background-color: red;
+}
+
+.red .one a, .red .two a{
+    text-decoration: none;
+    color: orange;
+}
