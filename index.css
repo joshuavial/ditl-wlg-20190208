@@ -1,0 +1,17 @@
+ol {
+  border: 1px solid red;
+}
+h1 {
+  color: orange;
+}
+.header {
+  font-size: 35px;
+  border: 1px dashed purple;
+}
+
+#header2 {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
